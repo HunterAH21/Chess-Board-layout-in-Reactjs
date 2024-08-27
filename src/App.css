@@ -1,0 +1,27 @@
+table{
+  border: 1px solid black;
+ 
+}
+.darkBOX{
+  background-color: rgb(101, 137, 67);
+}
+.whiteBOX{
+  background-color: rgb(228, 234, 193);
+}
+.darkBOX:hover{
+  background-color: rgb(161, 180, 54);
+}
+.whiteBOX:hover{
+  background-color: rgb(171, 173, 86);
+}
+td:hover{
+  transform: scale(1.2);
+  transition: 0.2s;
+}
+.board{
+  
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 120px;
+}
